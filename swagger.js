@@ -9,6 +9,7 @@ const doc = {
   host: 'cse341-project2-1o9v.onrender.com', 
   schemes: ['https'],
 };
+
 const outputFile = './swagger.json';
 const endpointsFiles = ['./routes/index.js'];
 
