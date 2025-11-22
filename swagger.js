@@ -5,12 +5,11 @@ const doc = {
     title: 'Chilean Soccer API',
     description: 'API to manage teams and players of Chilean Soccer',
   },
-  host: 'localhost:3000',
-  schemes: ['http'],
+  
+  host: 'cse341-project2-1o9v.onrender.com', 
+  schemes: ['https'],
 };
-
 const outputFile = './swagger.json';
 const endpointsFiles = ['./routes/index.js'];
 
-// Generate swagger.json file
 swaggerAutogen(outputFile, endpointsFiles, doc);

@@ -5,10 +5,10 @@
     "description": "API to manage teams and players of Chilean Soccer",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-project2-1o9v.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
